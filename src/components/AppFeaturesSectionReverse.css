@@ -1,0 +1,66 @@
+.appFeaturesReverse-container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .appFeaturesReverse-container > h1 {
+    color: #000;
+    font-size: 100px;
+    margin-top: -100px;
+  }
+  
+  .appFeaturesReverse-container > p {
+    margin-top: 8px;
+    color: #000;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    text-align:  center;
+    justify-content: center;
+  }
+
+  #screenShot {
+    max-height: 60vh;
+    margin: 5vh;
+  }
+
+  #description{
+    margin: 5vh;
+    max-width: 30vw;
+    
+  }
+
+
+
+  @media screen and (max-width: 960px) {
+    .appFeaturesReverse-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .appFeaturesReverse-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+    }
+  
+    .appFeaturesReverse-container > p {
+      font-size: 30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+  
