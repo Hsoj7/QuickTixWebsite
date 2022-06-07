@@ -1,0 +1,94 @@
+.footer-container {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: #fff;
+    object-fit: contain;
+  }
+  
+  .footer-container > h1 {
+    color: #000;
+    font-size: 100px;
+    margin-top: -100px;
+  }
+  
+  .footer-container > p {
+    color: #000;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+  }
+  
+  .footer-container > a {
+    font-size: 32px;
+    color: #3f3f3f;
+    font-weight: bold;
+  }
+
+  #about{
+      margin-bottom: 2vh;
+  }
+
+  #ContactUs{
+      margin-bottom: 6vh;
+  }
+
+  #availableNow{
+    font-size: 32px;
+    color: #3f3f3f;
+    font-weight: bold;
+  }
+
+  #finePrint1{
+    font-size: 24px;
+  }
+
+  #finePrint2{
+    font-size: 24px;
+    margin-top: -1.5vh;
+    margin-bottom: 4vh;
+  }
+
+  #quickTixLogoLong {
+    height: auto;
+    max-width: 100%;
+    margin-bottom: 10vh;
+  }
+
+  #getItOnGooglePlay {
+    margin-top: -3vh;
+    max-height: 10vh;
+    margin-bottom: 6vh;
+  }
+
+  @media screen and (max-width: 960px) {
+    .footer-container > h1 {
+      font-size: 70px;
+      margin-top: -150px;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .footer-container > h1 {
+      font-size: 50px;
+      margin-top: -100px;
+    }
+  
+    .footer-container > p {
+      font-size: 30px;
+    }
+  
+    .btn-mobile {
+      display: block;
+      text-decoration: none;
+    }
+  
+    .btn {
+      width: 100%;
+    }
+  }
+  

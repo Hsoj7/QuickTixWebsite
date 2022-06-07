@@ -10,8 +10,8 @@ const AppFeaturesSectionReverse = (props) => {
       {/* <img id='screenShot' style='float:left;' src={props.data.source} alt={props.data.alt} />
       <p id='description' style='float: right;'>Features here </p> */}
 
-      <p id='description' style={{color: props.data.textColor}}>{props.data.text}</p>
-      <img id='screenShot' src={props.data.source} alt={props.data.alt} />
+      <p id='description'  style={{color: props.data.textColor}}>{props.data.text}</p>
+      <img id='screenShot' class="responsive" src={props.data.source} alt={props.data.alt} />
 
     </div>
   );

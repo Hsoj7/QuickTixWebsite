@@ -8,7 +8,7 @@ function HeroSection() {
 
       <img id='quickTixLogoLong' src='./images/QuickTixLogoLong.png' alt='QuickTix Logo' />
       
-      <p id="aboutText">Powerful raffle and 50/50 management software</p>
+      <p id="aboutText">Powerful raffle and 50/50 lottery management software</p>
 
       <p>Available now for Android</p>
       <a href="https://play.google.com/store/apps/details?id=com.test.a5050_lottery" target="_blank">
